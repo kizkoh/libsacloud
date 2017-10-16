@@ -432,6 +432,7 @@ func (api *ProductAPI) GetProductInternetAPI() *ProductInternetAPI {
 	return api.Internet
 }
 
+// GetProductPrivateHostAPI 専有ホストAPI取得
 func (api *ProductAPI) GetProductPrivateHostAPI() *ProductPrivateHostAPI {
 	return api.PrivateHost
 }
